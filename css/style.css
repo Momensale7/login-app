@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+.main {
+    background-image: url(../images/full-8-1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    background-color: rgba(25, 117, 210, 0.702);
+}
+
+.sign {
+    width: 300px;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    border-color:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+@media (min-width : 500px) {
+    .sign{
+        width:400px;
+    }
+}
+.pageLink{
+    color: white;
+    text-decoration: none;
+}
+.pageLink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sign .btn ,nav .btn{
+    --bs-btn-border-color:white;
+}
+nav .navbar-toggler:focus{
+    box-shadow: none;
+}
+nav .navbar-toggler{
+    border: 1px solid white;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: rgb(43, 84, 134);;
+}

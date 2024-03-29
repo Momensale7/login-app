@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smart login System</title>
+    <!-- ^______________meta tags___________^ -->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- *______________stylesheet___________* -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- &_______________animation library______________& -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="vh-100 main">
+        <div class="overlay vh-100 d-flex align-items-center justify-content-center">
+            <div class="sign p-3 rounded-2 animate__animated animate__zoomIn ">
+                <h1 class="h3 text-center mb-4">Smart login System</h1>
+                <div class="form-group mb-4">
+                    <input type="email" id="email" name="email" class="form-control" placeholder="enter your email">
+                </div>
+                <div class="form-group mb-4">
+                    <input type="password" id="password" name="password" class="form-control"
+                        placeholder="enter your password">
+                </div>
+                <p class="alert alert-danger py-1 text-center notIdentical d-none">incorrect email or password</p>
+                <p class="alert alert-danger py-1 text-center emptyInputs d-none">All inputs is required</p>
+                <div class="text-center">
+                    <button class="btn btn-outline-primary btnLogin  py-2 px-5 text-white">Login</button>
+                </div>
+                <p class="text-center my-3">Don't have an account ?<a href="sign up.html"
+                        class="ps-2 pageLink fw-bold">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- * js files * -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script/index.js"></script>
+</body>
+
+</html>
